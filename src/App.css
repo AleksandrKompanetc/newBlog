@@ -1,0 +1,6 @@
+.header {
+    position: fixed;
+    background-color: green !important;
+    width: 100%;
+    top: 0;
+}
