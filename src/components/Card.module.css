@@ -1,0 +1,23 @@
+.appCard {
+    width: 420px;
+    margin: 0 20px 20px;
+    color: white;
+}
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.cardImgTop {
+    width: 420px;
+    height: 299px;
+}
+
+.cardBody {
+    width: 420px;
+    height: 151px;
+    padding: 10px;
+    background-color: #112b3e;
+}
