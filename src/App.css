@@ -1,6 +1,34 @@
 .header {
     position: fixed;
-    background-color: green !important;
+    background-color: #112b3e !important;
     width: 100%;
     top: 0;
+    color: #ffffff;
 }
+
+.navbarBrand {
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbarLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .header a {
+    color: #fff;
+}
+
+.header a:active {
+    color: #fff;
+}
+
+.navbar-brand a {
+    color: #fff;
+}
+
+.nav-item {
+    color: #fff;
+} */
