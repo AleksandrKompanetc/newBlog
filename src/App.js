@@ -1,20 +1,23 @@
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
+import HomePage from './articles';
+import ArticlePage from './article';
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Info from './pages/Info';
-import Header from './components/Header';
-import PostPage from './pages/PostPage';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Header />} >
-        <Route path="/" element={<Home />} />
-        <Route path="/info" element={<Info />} />
-        <Route path="/posts/:id" element={<PostPage />} />
-      </Route>
-    </Routes>
+    <Router>
+      <div>
+        <header className="header" >
+          <Link className="header-link" to="/">SHARETRADE.com</Link>
+        </header>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/article/:id" element={<ArticlePage />} />
+        </Routes>
+
+      </div>
+    </Router>
   )
 }
 
